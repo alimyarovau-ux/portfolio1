@@ -40,6 +40,41 @@ header {
     z-index: 1000;
 }
 
+header,
+.navbar-container {
+    background: rgba(0, 31, 63, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding-right: 20px;
+}
+
+.nav-buttons button {
+    background: rgba(0, 123, 255, 0.5);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 8px 15px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
+}
+
+.nav-buttons button:hover {
+    background: rgba(0, 123, 255, 0.8);
+    transform: translateY(-2px);
+}
+
 
 nav ul {
     display: flex;
