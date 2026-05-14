@@ -814,6 +814,15 @@ footer h2 {
     margin-bottom: 25px;
 }
 
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-top: 150px;
+
+    min-height: 100vh;
+}
 
 .social-icons img {
     width: 40px;
